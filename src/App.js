@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { TextField } from '@mui/material';
-import Swal from 'sweetalert2/dist/sweetalert2.js';
+import Swal from 'sweetalert2';
 import "./App.css";
 
 function App() {
